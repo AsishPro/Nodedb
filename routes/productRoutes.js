@@ -9,7 +9,7 @@ router.get("/fetch", productApi.products_all)
 //insert a record
 router.post("/insert", productApi.insert_product)
 //update a record
-router.put("/update", productApi.update_product)
+router.post("/update", productApi.update_product)
 //delete a record
 router.post("/delete", productApi.delete_product)
 //export router
